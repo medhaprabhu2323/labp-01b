@@ -1,0 +1,25 @@
+body, h1,h2,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header{
+    background-color: rgb(113, 161, 224);
+    color: rgb(178, 215, 230);
+    text-align: center;
+    padding: 1rem;
+}
+main{
+    padding: 2rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.photo{
+    flex: 1;
+    padding: 0 2rem;
+}
